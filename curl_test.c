@@ -31,7 +31,7 @@ int main(int argc,char *argv[])
     {
         printf("curl setopt url error\n");
         exit(1);
-    }
+    } 
 
     res = curl_easy_setopt(curl,CURLOPT_POST,0);
     if(res!=CURLE_OK)
